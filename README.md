@@ -11,7 +11,7 @@ demonstration along with implementation details.
 
 ## Usage
 
-See the samples in `examples/`.
+See the [samples](https://code4fukui.github.io/d3-cloud-es/examples/) in `examples/`.
 
 ## API Reference
 
