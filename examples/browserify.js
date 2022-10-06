@@ -1,5 +1,5 @@
-var d3 = require("d3"),
-    cloud = require("../");
+import * as d3 from "https://cdn.skypack.dev/d3@7";
+import { cloud } from "../index.js";
 
 var layout = cloud()
     .size([500, 500])

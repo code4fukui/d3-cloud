@@ -1,13 +1,13 @@
 // Word cloud layout by Jason Davies, https://www.jasondavies.com/wordcloud/
 // Algorithm due to Jonathan Feinberg, http://static.mrfeinberg.com/bv_ch03.pdf
 
-var dispatch = require("d3-dispatch").dispatch;
+import { dispatch } from "https://cdn.skypack.dev/d3-dispatch@3";
 
 var cloudRadians = Math.PI / 180,
     cw = 1 << 11 >> 5,
     ch = 1 << 11;
 
-module.exports = function() {
+export const cloud = function() {
   var size = [256, 256],
       text = cloudText,
       font = cloudFont,
